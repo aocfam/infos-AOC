@@ -1,0 +1,13 @@
+body
+{
+    background-color: #000000;
+}
+header
+{
+    display: flex;
+}
+nav
+{
+    background-color: rgb(43, 42, 42);
+    flex:1;
+}

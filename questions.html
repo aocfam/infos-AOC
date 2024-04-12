@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AOC site officiel</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="icon" type="image" href="/image/AOClogo.png"/>
+</head>
+<header>
+<a href="index.html">
+<img src="/image/AOClogo.png" style="height: 100px;width: 100px;"/>
+</a>
+<nav>
+    <ul>
+        <li><a href="contacts.html"> 
+           Contacts
+        </a></li>
+        <li><a href="adresses.html">
+            Adresses
+        </a></li>
+        <li><a href="questions.html">
+            Questions
+        </a></li>
+    </ul>
+</nav>
+</header>
+<body>  
+     <p class="titres">Tu as une ou des questions ?</p>
+<div id="container01">
+<div id="form">
+<form method="post" action="formulaire.php">
+    <p class="soustitres">Prénom</p><input type="text" name="Prénom" placeholder="Entrez votre prénom.."> </p>
+    <p class="soustitres">Nom:</p><p><input type="text" name="Nom" placeholder="Entrez votre nom..."></p>
+     <p class="soustitres">Email:</p><p><input type="email" name="Son mail" placeholder="Votre mail"></p>
+     <p class="soustitres">Age</p><p><input style="width: 150px;" type="number" name="Son âge" 
+        min="0" max="99" name="age"  placeholder="âge entre 0 et 99 ans" ></p>
+   <p class="soustitres">Ta question:</p>  <br> <textarea name="Sa question" style="height: 80px;width: 120px;margin-bottom: 5px;">
+ </textarea>
+   <input type="submit" name="envoie" value="Envoie du formulaire">
+</form>
+</div>
+<div id="text">
+   <p class="text">
+    Pas d'inquiétudes, si nous te demandons ces informations c'est bien sûr pour te recontacter par après.
+    Ainsi nous veillerons à ce que tu puisses être répondus dans le plus bref délais. <br>
+    (écris ta question dans l'espace dédié pour)
+   </p> 
+
+</div>
+<div id="image1">
+    <img src="/image/point.png" alt="point-interrogation">
+
+</div>
+</div>
+</body>
+<footer>
+    <div id="pubs">
+        <a href="https://www.instagram.com/_a_o_c__/">
+            <img src="/image/logoinsta.png" alt="instagram" style="width: 30px;">
+        </a>
+    </div>
+    <div id="text">
+        <p class="text">Nous espérons te revoir très vite ! - l'équipe AOC</p>
+    </div>
+</footer>
+</html>
